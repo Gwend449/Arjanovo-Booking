@@ -67,7 +67,7 @@
             </article>
 
             <article class="activity-card" role="listitem">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/sauna_in2.jpeg"
+                <img src="<?php echo get_template_directory_uri(); ?>/images/sauna_in2.jpg"
                     alt="Традиционная русская баня на дровах с деревянными полками и печью" 
                     class="activity-image"
                     loading="lazy"
@@ -114,7 +114,7 @@
         <h2 id="gallery-heading" class="section-title">Галерея</h2>
         <div class="gallery-grid-sect" role="list">
             <figure class="gallery-item-sect" role="listitem">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/home_in.jpeg" 
+                <img src="<?php echo get_template_directory_uri(); ?>/images/home_in6.jpeg" 
                     alt="Интерьер домика-бани Воронье Гнездо с деревянной отделкой"
                     loading="lazy"
                     width="600"
@@ -128,7 +128,7 @@
                     height="400">
             </figure>
             <figure class="gallery-item-sect" role="listitem">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/home_out4.jpeg"
+                <img src="<?php echo get_template_directory_uri(); ?>/images/winter_out2.jpg"
                     alt="Территория домика с видом на окружающую природу"
                     loading="lazy"
                     width="600"
@@ -160,7 +160,7 @@
                 <dl class="pricing-list">
                     <div class="pricing-item">
                         <dt>За 1 ночь (2 гостя)</dt>
-                        <dd itemprop="price" content="8000">8000₽</dd>
+                        <dd itemprop="price" content="8000">6000₽</dd>
                     </div>
                     <div class="pricing-item">
                         <dt>+1 гость</dt>
@@ -173,6 +173,10 @@
                     <div class="pricing-item">
                         <dt>Баня</dt>
                         <dd>5000₽</dd>
+                    </div>
+                    <div class="pricing-item">
+                        <dt>Внедорожник с водителем (почасовая)</dt>
+                        <dd itemprop="price" content="8000">5000₽</dd>
                     </div>
                 </dl>
                 <p class="pricing-note">
@@ -192,7 +196,7 @@
                     </li>
                     <li>
                         <span class="checkmark" aria-hidden="true">✓</span>
-                        <span>Баня требует предварительного бронирования за 6-7 часов для подготовки</span>
+                        <span>Баня требует предварительного бронирования (можно снять отдельно) за 6-7 часов для подготовки</span>
                     </li>
                     <li>
                         <span class="checkmark" aria-hidden="true">✓</span>
@@ -205,6 +209,10 @@
                     <li>
                         <span class="checkmark" aria-hidden="true">✓</span>
                         <span>Залог 5000 руб, возвращается после уборки домика</span>
+                    </li>
+                    <li>
+                        <span class="checkmark" aria-hidden="true">✓</span>
+                        <span>Дети до 10 лет бесплатно с предоставлением спального места</span>
                     </li>
                     <li>
                         <span class="checkmark" aria-hidden="true">✓</span>

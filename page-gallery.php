@@ -44,9 +44,16 @@ get_header(); ?>
                     ['src' => $theme_url . '/images/scarecrow.jpg', 'alt' => 'Декоративное пугало на территории домика'],
                     ['src' => $theme_url . '/images/night_foolk.jpg', 'alt' => 'Домик в вечернем освещении с уютной атмосферой'],
                     ['src' => $theme_url . '/images/sauna0.jpeg', 'alt' => 'Внешний вид бани на территории домика'],
-                    ['src' => $theme_url . '/images/sauna_in.jpeg', 'alt' => 'Интерьер традиционной русской бани с деревянными полками'],
-                    ['src' => $theme_url . '/images/sauna_in2.jpeg', 'alt' => 'Парная в бане с печью на дровах'],
+                    ['src' => $theme_url . '/images/sauna_in.jpg', 'alt' => 'Интерьер традиционной русской бани с деревянными полками'],
+                    ['src' => $theme_url . '/images/sauna_in2.jpg', 'alt' => 'Парная в бане с печью на дровах'],
                     ['src' => $theme_url . '/images/sunrise.jpg', 'alt' => 'Рассвет над полями возле домика Воронье Гнездо'],
+                    ['src' => $theme_url . '/images/sauna_in3.jpg', 'alt' => 'Рассвет над полями возле домика Воронье Гнездо'],
+                    ['src' => $theme_url . '/images/sauna_in4.jpg', 'alt' => 'Рассвет над полями возле домика Воронье Гнездо'],
+                    ['src' => $theme_url . '/images/sauna_venik.jpg', 'alt' => 'Рассвет над полями возле домика Воронье Гнездо'],
+                    ['src' => $theme_url . '/images/winter_chan.jpg', 'alt' => 'Рассвет над полями возле домика Воронье Гнездо'],
+                    ['src' => $theme_url . '/images/winter_fence.jpg', 'alt' => 'Рассвет над полями возле домика Воронье Гнездо'],
+                    ['src' => $theme_url . '/images/winter_out.jpg', 'alt' => 'Рассвет над полями возле домика Воронье Гнездо'],
+                    ['src' => $theme_url . '/images/winter_out2.jpg', 'alt' => 'Рассвет над полями возле домика Воронье Гнездо'],
                 ];
 
                 foreach ($images as $index => $image) {

@@ -38,7 +38,7 @@ function auto_load_gallery_images()
 {
     $theme_path = get_template_directory();
     $theme_url = get_template_directory_uri();
-    $gallery_folder = '/images/'; // ваша папка с изображениями
+    $gallery_folder = '/images/'; 
 
     $images = [];
     $allowed_extensions = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
@@ -63,7 +63,7 @@ function auto_load_gallery_images()
         if (in_array($file_extension, $allowed_extensions) && is_file($file_path)) {
             $images[] = [
                 'src' => $theme_url . $gallery_folder . $file,
-                'alt' => pathinfo($file, PATHINFO_FILENAME), // имя файла как alt
+                'alt' => pathinfo($file, PATHINFO_FILENAME), 
                 'title' => ucfirst(str_replace(['-', '_'], ' ', pathinfo($file, PATHINFO_FILENAME)))
             ];
         }
@@ -87,7 +87,7 @@ function auto_load_gallery_images()
                      class="lazy-load">
             </div>',
             $index,
-            esc_url(get_template_directory_uri() . '/public/placeholder.jpg'), // плейсхолдер
+            esc_url(get_template_directory_uri() . '/public/placeholder.jpg'), 
             esc_url($image['src']),
             esc_attr($image['alt']),
             esc_attr($image['title'])
@@ -99,7 +99,6 @@ function auto_load_gallery_images()
     return $output;
 }
 
-// Handle booking form submission
 function handle_booking_form()
 {
     if (isset($_POST['booking_submit'])) {
@@ -118,7 +117,7 @@ function handle_booking_form()
         $message = sanitize_textarea_field($_POST['message']);
 
         // Email setup
-        $to = get_option('admin_email'); // можно заменить на твой адрес вручную
+        $to = get_option('admin_email'); 
         $subject = 'Новая заявка с сайта "Воронье Гнездо"';
         $body = "Заявка получена:\n\n";
         $body .= "Имя: $name\n";
@@ -135,7 +134,6 @@ function handle_booking_form()
             "Reply-To: $email"
         );
 
-        // Send mail
         if (wp_mail($to, $subject, $body, $headers)) {
             wp_redirect(add_query_arg('booking', 'success', $_SERVER['REQUEST_URI']));
         } else {
