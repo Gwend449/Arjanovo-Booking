@@ -5,10 +5,12 @@
     style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/home-background.jpg')">
     <div class="hero-content">
         <h1>Домик-баня <br> "Воронье Гнездо"</h1>
-        <p class="hero-description">Покиньте город, насладитесь природой и расслабьтесь в уединенном доме с видом на лес</p>
+        <p class="hero-description">Покиньте город, насладитесь природой и расслабьтесь в уединенном доме с видом на лес
+        </p>
         <nav class="hero-buttons" aria-label="Primary navigation">
             <a href="#booking" class="btn btn-primary" aria-label="Перейти к форме бронирования">Забронировать</a>
-            <a href="#gallery" class="btn btn-primary btn-secondary" aria-label="Посмотреть фотогалерею">Смотреть галерею</a>
+            <a href="#gallery" class="btn btn-primary btn-secondary" aria-label="Посмотреть фотогалерею">Смотреть
+                галерею</a>
         </nav>
     </div>
 </section>
@@ -19,21 +21,19 @@
         <article class="max-w-6xl mx-auto">
             <h2 id="about-heading" class="text-3xl md:text-4xl font-bold text-center mb-6">О нас</h2>
             <p class="text-center text-lg mb-12 max-w-3xl mx-auto text-pretty leading-relaxed">
-                Приглашаeм Вас в уeдиненный домик для романтичeскoго или семeйнoгo oтдыха. Дoм cтoит нa oкраине стaрoй дерeвни, нa
+                Приглашаeм Вас в уeдиненный домик для романтичeскoго или семeйнoгo oтдыха. Дoм cтoит нa oкраине стaрoй
+                дерeвни, нa
                 пригоpкe, c котоpoго oткpываетcя вид нa бecкpaйние поля и лес. Домик идеально подойдет: для влюбленных
                 пар, для небольшой семьи с детьми, для компании друзей, желающих уединения, девичников.
             </p>
         </article>
-        
+
         <!-- Activities grid with semantic markup -->
         <div class="activities-grid" role="list">
             <article class="activity-card" role="listitem">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/chan.jpeg"
-                    alt="Горячий чан на открытом воздухе с видом на лес и закат, вмещает 4-6 человек" 
-                    class="activity-image"
-                    loading="lazy"
-                    width="800"
-                    height="600">
+                    alt="Горячий чан на открытом воздухе с видом на лес и закат, вмещает 4-6 человек"
+                    class="activity-image" loading="lazy" width="800" height="600">
                 <div class="activity-content">
                     <h3>Чан</h3>
                     <p>Расслабьтесь в горячем чане, с видом на закат и лес. Комфортно для 4-6 человек</p>
@@ -42,11 +42,8 @@
 
             <article class="activity-card" role="listitem">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/home_in7.jpeg"
-                    alt="Уютная комната отдыха с мягким диваном и теплой атмосферой после бани" 
-                    class="activity-image"
-                    loading="lazy"
-                    width="800"
-                    height="600">
+                    alt="Уютная комната отдыха с мягким диваном и теплой атмосферой после бани" class="activity-image"
+                    loading="lazy" width="800" height="600">
                 <div class="activity-content">
                     <h3>Комната отдыха</h3>
                     <p>После бани или чана, приятно сесть в уютной комнате на мягкий диван и перевести дух</p>
@@ -55,11 +52,8 @@
 
             <article class="activity-card" role="listitem">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/kitchen.jpg"
-                    alt="Полностью оборудованная кухня с плитой, холодильником, микроволновкой и посудой" 
-                    class="activity-image"
-                    loading="lazy"
-                    width="800"
-                    height="600">
+                    alt="Полностью оборудованная кухня с плитой, холодильником, микроволновкой и посудой"
+                    class="activity-image" loading="lazy" width="800" height="600">
                 <div class="activity-content">
                     <h3>Кухня</h3>
                     <p>Кухня с плитой, холодильником, чайником, микроволновкой и всей необходимой посудой</p>
@@ -68,11 +62,8 @@
 
             <article class="activity-card" role="listitem">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/sauna_in2.jpg"
-                    alt="Традиционная русская баня на дровах с деревянными полками и печью" 
-                    class="activity-image"
-                    loading="lazy"
-                    width="800"
-                    height="600">
+                    alt="Традиционная русская баня на дровах с деревянными полками и печью" class="activity-image"
+                    loading="lazy" width="800" height="600">
                 <div class="activity-content">
                     <h3>Баня</h3>
                     <p>Традиционная, настоящая "волшебная" русская баня на дровах</p>
@@ -81,11 +72,8 @@
 
             <article class="activity-card" role="listitem">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/night_foolk.jpg"
-                    alt="Уютный деревянный домик-баня Воронье Гнездо в вечернем освещении" 
-                    class="activity-image"
-                    loading="lazy"
-                    width="800"
-                    height="600">
+                    alt="Уютный деревянный домик-баня Воронье Гнездо в вечернем освещении" class="activity-image"
+                    loading="lazy" width="800" height="600">
                 <div class="activity-content">
                     <h3>Уютный домик</h3>
                     <p>Зайдя внутрь, сразу чувствуется атмосфера и спокойствие</p>
@@ -94,11 +82,8 @@
 
             <article class="activity-card" role="listitem">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/home_out3.jpeg"
-                    alt="Мангальная зона на открытом воздухе для приготовления шашлыка" 
-                    class="activity-image"
-                    loading="lazy"
-                    width="800"
-                    height="600">
+                    alt="Мангальная зона на открытом воздухе для приготовления шашлыка" class="activity-image"
+                    loading="lazy" width="800" height="600">
                 <div class="activity-content">
                     <h3>Мангальная зона</h3>
                     <p>Приготовьте вкусный шашлык на свежем воздухе</p>
@@ -114,42 +99,34 @@
         <h2 id="gallery-heading" class="section-title">Галерея</h2>
         <div class="gallery-grid-sect" role="list">
             <figure class="gallery-item-sect" role="listitem">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/home_in6.jpeg" 
-                    alt="Интерьер домика-бани Воронье Гнездо с деревянной отделкой"
-                    loading="lazy"
-                    width="600"
+                <img src="<?php echo get_template_directory_uri(); ?>/images/home_in6.jpeg"
+                    alt="Интерьер домика-бани Воронье Гнездо с деревянной отделкой" loading="lazy" width="600"
                     height="400">
             </figure>
             <figure class="gallery-item-sect" role="listitem">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/home_out.jpeg"
-                    alt="Внешний вид домика-бани на фоне леса и полей"
-                    loading="lazy"
-                    width="600"
-                    height="400">
+                    alt="Внешний вид домика-бани на фоне леса и полей" loading="lazy" width="600" height="400">
             </figure>
             <figure class="gallery-item-sect" role="listitem">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/winter_out2.jpg"
-                    alt="Территория домика с видом на окружающую природу"
-                    loading="lazy"
-                    width="600"
-                    height="400">
+                    alt="Территория домика с видом на окружающую природу" loading="lazy" width="600" height="400">
             </figure>
             <figure class="gallery-item-sect" role="listitem">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/scarecrow.jpg"
-                    alt="Декоративное пугало на территории домика Воронье Гнездо"
-                    loading="lazy"
-                    width="600"
+                    alt="Декоративное пугало на территории домика Воронье Гнездо" loading="lazy" width="600"
                     height="400">
             </figure>
         </div>
         <nav class="btn-gallery">
-            <a href="gallery/" class="btn btn-primary" aria-label="Перейти к полной галерее фотографий">Смотреть галерею</a>
+            <a href="gallery/" class="btn btn-primary" aria-label="Перейти к полной галерее фотографий">Смотреть
+                галерею</a>
         </nav>
     </div>
 </section>
 
 <!-- Pricing and Rules Section with Schema Markup -->
-<section class="section pricing-rules-section" aria-labelledby="pricing-heading" itemscope itemtype="https://schema.org/Offer">
+<section class="section pricing-rules-section" aria-labelledby="pricing-heading" itemscope
+    itemtype="https://schema.org/Offer">
     <div class="container">
         <h2 id="pricing-heading" class="section-title">Цены & Правила</h2>
 
@@ -158,30 +135,44 @@
             <article class="card" aria-labelledby="pricing-card-heading">
                 <h3 id="pricing-card-heading">Цены</h3>
                 <dl class="pricing-list">
-                    <div class="pricing-item">
-                        <dt>За 1 ночь (2 гостя)</dt>
-                        <dd itemprop="price" content="8000">6000₽</dd>
+                    <div class="pricing-item-wrapper">
+                        <div class="pricing-item">
+                            <dt>За 1 ночь (2 гостя)</dt>
+                            <dd itemprop="price" content="6000">6000₽</dd>
+                        </div>
+                        <div class="pricing-note note-weekend">
+                            <dt>Пт-Сб, праздничные и предпраздничные дни</dt>
+                            <dd itemprop="price" content="8000">8000₽</dd>
+                        </div>
                     </div>
-                    <div class="pricing-item">
-                        <dt>+1 гость</dt>
-                        <dd>+1000₽</dd>
+                    <div class="pricing-item-wrapper">
+                        <div class="pricing-item">
+                            <dt>+1 гость</dt>
+                            <dd>+1000₽</dd>
+                        </div>
                     </div>
-                    <div class="pricing-item">
-                        <dt>Чан</dt>
-                        <dd>4000₽</dd>
+                    <div class="pricing-item-wrapper">
+                        <div class="pricing-item">
+                            <dt>Чан</dt>
+                            <dd>4000₽</dd>
+                        </div>
                     </div>
-                    <div class="pricing-item">
-                        <dt>Баня</dt>
-                        <dd>5000₽</dd>
+                    <div class="pricing-item-wrapper">
+                        <div class="pricing-item">
+                            <dt>Баня</dt>
+                            <dd>5000₽</dd>
+                        </div>
                     </div>
-                    <div class="pricing-item">
-                        <dt>Внедорожник с водителем (почасовая)</dt>
-                        <dd itemprop="price" content="8000">5000₽</dd>
+                    <div class="pricing-item-wrapper">
+                        <div class="pricing-item">
+                            <dt>Внедорожник с водителем (почасовая)</dt>
+                            <dd itemprop="price" content="8000">5000₽</dd>
+                        </div>
                     </div>
                 </dl>
                 <p class="pricing-note">
-                    <strong>Дополнительные услуги:</strong> пихтовый чан (пихта + грейпфрут), уголь и розжиг, 
-                    халат, полотенце, веник дубовый, матрац из сена для парения, мочалка вязанная, аренда внедорожника с водителем. 
+                    <strong>Дополнительные услуги:</strong> пихтовый чан (пихта + грейпфрут), уголь и розжиг,
+                    халат, полотенце, веник дубовый, матрац из сена для парения, мочалка вязанная.
                 </p>
                 <meta itemprop="priceCurrency" content="RUB">
             </article>
@@ -196,7 +187,8 @@
                     </li>
                     <li>
                         <span class="checkmark" aria-hidden="true">✓</span>
-                        <span>Баня требует предварительного бронирования (можно снять отдельно) за 6-7 часов для подготовки</span>
+                        <span>Баня требует предварительного бронирования (можно снять отдельно) за 6-7 часов для
+                            подготовки</span>
                     </li>
                     <li>
                         <span class="checkmark" aria-hidden="true">✓</span>
@@ -253,30 +245,35 @@
 
             <div class="form-row">
                 <div class="form-group">
-                    <label for="email">Email <abbr title="обязательное поле" aria-label="обязательное поле">*</abbr></label>
+                    <label for="email">Email <abbr title="обязательное поле"
+                            aria-label="обязательное поле">*</abbr></label>
                     <input type="email" id="email" name="email" required aria-required="true" autocomplete="email">
                 </div>
 
                 <div class="form-group">
-                    <label for="phone">Телефон <abbr title="обязательное поле" aria-label="обязательное поле">*</abbr></label>
+                    <label for="phone">Телефон <abbr title="обязательное поле"
+                            aria-label="обязательное поле">*</abbr></label>
                     <input type="tel" id="phone" name="phone" required aria-required="true" autocomplete="tel">
                 </div>
             </div>
 
             <div class="form-row">
                 <div class="form-group">
-                    <label for="checkin">Дата заезда <abbr title="обязательное поле" aria-label="обязательное поле">*</abbr></label>
+                    <label for="checkin">Дата заезда <abbr title="обязательное поле"
+                            aria-label="обязательное поле">*</abbr></label>
                     <input type="date" id="checkin" name="checkin" required aria-required="true">
                 </div>
 
                 <div class="form-group">
-                    <label for="checkout">Дата выезда <abbr title="обязательное поле" aria-label="обязательное поле">*</abbr></label>
+                    <label for="checkout">Дата выезда <abbr title="обязательное поле"
+                            aria-label="обязательное поле">*</abbr></label>
                     <input type="date" id="checkout" name="checkout" required aria-required="true">
                 </div>
             </div>
 
             <div class="form-group">
-                <label for="guests">Количество гостей <abbr title="обязательное поле" aria-label="обязательное поле">*</abbr></label>
+                <label for="guests">Количество гостей <abbr title="обязательное поле"
+                        aria-label="обязательное поле">*</abbr></label>
                 <select id="guests" name="guests" required aria-required="true">
                     <option value="">Выберите количество</option>
                     <option value="1">1 гость</option>
@@ -294,7 +291,8 @@
                 <small id="message-help" class="form-text">Укажите любые особые пожелания или вопросы</small>
             </div>
 
-            <button type="submit" name="booking_submit" class="btn btn-primary" style="width: 100%;" aria-label="Отправить заявку на бронирование">
+            <button type="submit" name="booking_submit" class="btn btn-primary" style="width: 100%;"
+                aria-label="Отправить заявку на бронирование">
                 Отправить заявку
             </button>
         </form>

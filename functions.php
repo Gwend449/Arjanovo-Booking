@@ -20,7 +20,7 @@ function forest_hideaway_setup()
 }
 add_action('after_setup_theme', 'forest_hideaway_setup');
 
-// Enqueue styles and scripts
+
 function forest_hideaway_scripts()
 {
     // Google Fonts
@@ -38,7 +38,7 @@ function auto_load_gallery_images()
 {
     $theme_path = get_template_directory();
     $theme_url = get_template_directory_uri();
-    $gallery_folder = '/images/'; 
+    $gallery_folder = '/images/';
 
     $images = [];
     $allowed_extensions = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
@@ -63,7 +63,7 @@ function auto_load_gallery_images()
         if (in_array($file_extension, $allowed_extensions) && is_file($file_path)) {
             $images[] = [
                 'src' => $theme_url . $gallery_folder . $file,
-                'alt' => pathinfo($file, PATHINFO_FILENAME), 
+                'alt' => pathinfo($file, PATHINFO_FILENAME),
                 'title' => ucfirst(str_replace(['-', '_'], ' ', pathinfo($file, PATHINFO_FILENAME)))
             ];
         }
@@ -87,7 +87,7 @@ function auto_load_gallery_images()
                      class="lazy-load">
             </div>',
             $index,
-            esc_url(get_template_directory_uri() . '/public/placeholder.jpg'), 
+            esc_url(get_template_directory_uri() . '/public/placeholder.jpg'),
             esc_url($image['src']),
             esc_attr($image['alt']),
             esc_attr($image['title'])
@@ -117,7 +117,7 @@ function handle_booking_form()
         $message = sanitize_textarea_field($_POST['message']);
 
         // Email setup
-        $to = get_option('admin_email'); 
+        $to = get_option('admin_email');
         $subject = 'Новая заявка с сайта "Воронье Гнездо"';
         $body = "Заявка получена:\n\n";
         $body .= "Имя: $name\n";
@@ -144,7 +144,6 @@ function handle_booking_form()
 }
 add_action('template_redirect', 'handle_booking_form');
 
-// Custom post type for Activities (optional)
 function register_activities_post_type()
 {
     $args = array(
@@ -157,7 +156,6 @@ function register_activities_post_type()
 }
 add_action('init', 'register_activities_post_type');
 
-// Custom post type for Gallery (optional)
 function register_gallery_post_type()
 {
     $args = array(
@@ -170,8 +168,9 @@ function register_gallery_post_type()
 }
 add_action('init', 'register_gallery_post_type');
 
-function my_phpmailer_example( $phpmailer ) {
-    $phpmailer->isSMTP();     
+function my_phpmailer_example($phpmailer)
+{
+    $phpmailer->isSMTP();
     $phpmailer->Host = SMTP_HOST;
     $phpmailer->SMTPAuth = SMTP_AUTH;
     $phpmailer->Port = SMTP_PORT;
@@ -182,7 +181,7 @@ function my_phpmailer_example( $phpmailer ) {
     $phpmailer->FromName = SMTP_NAME;
 
 }
-add_action( 'phpmailer_init', 'my_phpmailer_example' );
+add_action('phpmailer_init', 'my_phpmailer_example');
 // add_action('init', function () {
 //     if (isset($_GET['testmail'])) {
 //         wp_mail('nlyapin2013@yandex.ru', 'SMTP Test', 'Если ты получил это письмо — SMTP работает!');

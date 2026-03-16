@@ -329,6 +329,38 @@ img {
   font-weight: bold;
 }
 
+.pricing-rules-section {
+  background-color: #f5f0e8;
+}
+
+.pricing-item, .note-weekend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #7b5e3b;
+}
+
+.pricing-note {
+  font-size: 0.875rem;
+  color: #999;
+  margin-top: 1rem;
+}
+
+.pricing-item-wrapper {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #f5f0e8;
+    padding-bottom: 0.75rem;
+}
+
+.pricing-note.note-weekend {
+    margin-top: 0.25rem;
+}
+
+.pricing-list dd {
+  font-weight: bold;
+
+}
+
 /* Booking Form */
 .booking-form {
   background: var(--color-white);
@@ -424,10 +456,6 @@ img {
   color: #7b5e3b;
 }
 
-.pricing-rules-section {
-  background-color: #f5f0e8;
-}
-
 .cards-container {
   display: flex;
   gap: 2rem;
@@ -448,31 +476,6 @@ img {
   font-weight: bold;
   color: #2e5339;
   margin-bottom: 1.5rem;
-}
-
-.pricing-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 0.75rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #f5f0e8;
-  color: #7b5e3b;
-}
-
-.pricing-item span:first-child {
-  font-weight: 500;
-}
-
-.pricing-item span:last-child {
-  font-weight: bold;
-  font-size: 1.125rem;
-}
-
-.pricing-note {
-  font-size: 0.875rem;
-  color: #999;
-  margin-top: 1rem;
 }
 
 .rules-list {
